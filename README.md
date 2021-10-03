@@ -25,11 +25,11 @@ replace the current path back to the clicked directory-folder label.
 
 Adjustment: navigation > breadcrumb
 
-        Private bcn_startPosX As Integer = 10		' the first label (breadcrumb item) on the X-axis
+Private bcn_startPosX As Integer = 10		' the first label (breadcrumb item) on the X-axis
 	
-        Private bcn_startPosY As Integer = 10		' the first label (breadcrumb item) on the Y-axis (the same for all following items)
+Private bcn_startPosY As Integer = 10		' the first label (breadcrumb item) on the Y-axis (the same for all following items)
 	
-        Private bcn_delimiter As String = ">"		' breadcrumb delimiter/seperator
+Private bcn_delimiter As String = ">"		' breadcrumb delimiter/seperator
 	
-        Private bcn_delimiterSpace As Integer = 1	' space between the directory-folder-name and the delimiter/seperator
+Private bcn_delimiterSpace As Integer = 1	' space between the directory-folder-name and the delimiter/seperator
 	
