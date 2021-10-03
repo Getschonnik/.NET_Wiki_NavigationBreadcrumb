@@ -11,11 +11,13 @@ Use of the module
 	navigation.breadcrumb.setBreadcrumbNavigation(My.Application.Info.DirectoryPath & "\data\Documents", panel_breadcrumb_bg, "")
 	
 The line above will show the complete path as breadcrumb.
+
 Example: C: > source > repos > myApplication > data > Documents
 			
 	navigation.breadcrumb.setBreadcrumbNavigation(My.Application.Info.DirectoryPath & "\data\Documents\Office", panel_breadcrumb_bg, My.Application.Info.DirectoryPath)
 	
 The line above cut the last directory and show only the included directory folders
+
 Example: data > Documents
 	
 A new handler will created for every breadcrumb label. If you click on one of them, the navigation-breadcrumb will 
