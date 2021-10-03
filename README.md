@@ -7,10 +7,12 @@
 ' Add a panel on the form where you want to show the navigation breadcrumb (e.g: panel_breadcrumb_bg)
 
 Use of the module
-			navigation.breadcrumb.setBreadcrumbNavigation(My.Application.Info.DirectoryPath & "\data\Documents", panel_breadcrumb_bg, "")
+		navigation.breadcrumb.setBreadcrumbNavigation(My.Application.Info.DirectoryPath & "\data\Documents", panel_breadcrumb_bg, "")
+	
 	The line above will show the complete path as breadcrumb.
 			
-			navigation.breadcrumb.setBreadcrumbNavigation(My.Application.Info.DirectoryPath & "\data\Documents\Office", panel_breadcrumb_bg, My.Application.Info.DirectoryPath & "\data")
+		navigation.breadcrumb.setBreadcrumbNavigation(My.Application.Info.DirectoryPath & "\data\Documents\Office", panel_breadcrumb_bg, My.Application.Info.DirectoryPath & "\data")
+		
 	The line above cut the last directory and show only the included directory folders
 	
 A new handler will created for every breadcrumb label. If you click on one of them, the navigation-breadcrumb will replace the current path 
