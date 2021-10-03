@@ -3,8 +3,8 @@
 
 * Show a path as navigation breadcrumb  
 
-' Add a new module and paste the following code into it
-' Add a panel on the form where you want to show the navigation breadcrumb (e.g: panel_breadcrumb_bg)
+1. Add a new module and paste the following code into it
+2. Add a panel on the form where you want to show the navigation breadcrumb (e.g: panel_breadcrumb_bg)
 
 Use of the module
 
@@ -16,7 +16,7 @@ Example: C: > source > repos > myApplication > data > Documents
 			
 	navigation.breadcrumb.setBreadcrumbNavigation(My.Application.Info.DirectoryPath & "\data\Documents\Office", panel_breadcrumb_bg, My.Application.Info.DirectoryPath)
 	
-The line above cut the last directory and show only the included directory folders
+The line above cut the entered directory (beginning) and show only the subdirectory
 
 Example: data > Documents
 	
@@ -33,7 +33,7 @@ Private bcn_startPosX As Integer = 10		' the first label (breadcrumb item) on th
 	
 Private bcn_startPosY As Integer = 10		' the first label (breadcrumb item) on the Y-axis (the same for all following items)
 	
-Private bcn_delimiter As String = ">"		' breadcrumb delimiter/seperator
+Private bcn_delimiter As String = ">"		' breadcrumb delimiter/seperator as a char
 	
 Private bcn_delimiterSpace As Integer = 1	' space between the directory-folder-name and the delimiter/seperator
 	
